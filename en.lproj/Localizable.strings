@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  LifeHack
+
+  Created by sawamoren on 2023/09/04.
+  
+*/
+
+"calender" = "calender";
+"complete" = "completed";
+"imgcomplete" = "complete";
+"diary" = "diary";
+"noDiary" = "No diary";
+"noTask" = "No tasks completed";
+"todo" = "todo";
+"task" = "task";
+"work" = "work";
+"short" = "short";
+"long" = "long";
+"title" = "title";
+
+"setting" = "setting";
+"todayState" = "Today's status";
+"happend" = "What happened today?";
+"delete" = "delete";
+"cancel" = "cancel";
+"work" = "work";
+"notYet" = "task";
+"edit" = "edit";
+"trash" = "delete";
+"contant" = "contant";
+"contant2" = "contant";
+"approximate" = "approximate ";
+"approximate2" = "approximate";
+"add" = "add";
+
+// Book
+"memo" = "book";
+"total" = "total";
+"latest" = "latest";
+"review" = "review";
+"goal" = "goal";
+"goal1" = "goal1";
+"goal2" = "goal2";
+"goal3" = "goal3";
+"category" = "category";
+"cancel" = "cancel";
+"action" = "action";
+"progress" = "progress";
+"bookTitle" = "book title";
+"memoTitle" = "memo title";
+"bookTitleAlert" = "Already registered";
+"CantAllDelete" = "all cannot be deleted";
+"CantAddCategory" = "No more can be added";
+"alreadyResistration" = "Already registered";
+"registrationDate" = "registration";
+
+// Graf
+"1month" = "1mo";
+"3month" = "3mo";
+"6month" = "6mo";
+"12month" = "1yr";
+"graph" = "graph";
+"condition" = "condition";
+"day" = "day";
+
+ // todo
+"30min" = "~30min";
+"30min~1hr" = "30min~1hr";
+"1hr~2hr" = "1~2hr";
+"2hr~6hr" = "2~6hr";
+"6hr~" = "6hr~";
+
+
+// popear
+"poper1" = "Completed Tasks are automaticary deleted when the date changes";
+"poper2" = "Diary is automaticary deleted when the date changes";
+"poper3" = "Write down your goals before reading and review after reading";
+// MypageView
+"darkModo" = "dark mode";
+"appIcon" = "app icon";
+"contact" = "contact";
+"website_url"  = "https://rensawamo.github.io/LifeHack_HomePage/";
+"privacy_url"  = "https://rensawamo.github.io/Privacy-Policy-English-/";
+
+
+"AppIcon" = "App Icon";
+"mail" = "Your email has been sent";
+"termsOfUse" = "privacy policy";

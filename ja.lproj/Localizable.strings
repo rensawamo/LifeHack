@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  LifeHack
+
+  Created by sawamoren on 2023/09/04.
+  
+*/
+"calender" = "カレンダー";
+"complete" = "完了";
+"imgcomplete" = "完了";
+"diary" = "日記";
+"noDiary" = "日記がありません";
+"noTask" = "完了したタスクがありません";
+"todo" = "タスク";
+"task" = "タスク";
+"work" = "仕事";
+"short" = "短期";
+"long" = "長期";
+"title" = "タイトル";
+
+"setting" = "設定";
+"todayState" = "今日の状態";
+"happend" = "今日の出来事";
+"delete" = "削除";
+"cancel" = "キャンセル";
+"work" = "仕事";
+"notYet" = "タスク";
+"edit" = "編集";
+"trash" = "削除";
+"contant" = "内容";
+"contant2" = "内容";
+"approximate" = "目安";
+"approximate2" = "目安";
+"add" = "追加";
+
+// Book
+"memo" = "読書";
+"total" = "合計";
+"latest" = "最新";
+"review" = "レビュー";
+"goal" = "目標";
+"goal1" = "目標1";
+"goal2" = "目標2";
+"goal3" = "目標3";
+"category" = "カテゴリー";
+"cancel" = "キャンセル";
+"action" = "実行";
+"progress" = "進行中";
+"bookTitle" = "本のタイトル";
+"memoTitle" = "メモのタイトル";
+"bookTitleAlert" = "すでに登録されています";
+"CantAllDelete" = "allは削除できません";
+"CantAddCategory" = "これ以上追加できません";
+"alreadyResistration" = "すでに登録されています";
+"registrationDate" = "登録日";
+ 
+// Graf
+"1month" = "1ヶ月";
+"3month" = "3ヶ月";
+"6month" = "半年";
+"12month" = "1年";
+"graph" = "グラフ";
+"condition" = "調子";
+"day" = "日";
+
+// todo
+"30min" = "~30分";
+"30min~1hr" = "30分~1時間";
+"1hr~2hr" = "1~2時間";
+"2hr~6hr" = "2~6時間";
+"6hr~" = "6時間~";
+
+
+// popear
+"poper1" = "完了したタスクは、日付が変わると自動的に削除されます";
+"poper2" = "日記は、日付が変わると自動的に削除されます";
+"poper3" = "読書前に目標を書いて、レビューを読書後に行います";
+
+// MypageView
+"darkModo" = "ダークモード";
+"appIcon" = "アプリのアイコン";
+"contact" = "お問い合わせ";
+"AppIcon" = "アプリのアイコン";
+"mail" = "メールの送信が完了しました";
+"termsOfUse" = "プライバシーポリシー";
+"website_url"  = "https://rensawamo.github.io/LifeHackWeb/";
+"privacy_url"  = "https://rensawamo.github.io/Privacy-Policy/";
