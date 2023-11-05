@@ -11,12 +11,9 @@
 ・グラフ: 1,3,6,12ヶ月の調子、メモのカテゴリーに応じたグラフ化  <br>
 ・その他: アイコンカスタマイズ、メールでの意見受け付けなど  <br>
 
-## [参考動画]
-<https://share.icloud.com/photos/075WrGggcEF6JY9Xayge9sSVA>
-
 ## [技術] <br>
 言語: Swift  <br>
-FW: SwiftUI,Uikit  <br>  
+FW: SwiftUI,UIkit  <br>  
 Package: Realm(10.42.0), RealmDatabase(13.17.1), PieChart(0.3.0)  <br>
 
 ## [アーキテクチャー] <br>
