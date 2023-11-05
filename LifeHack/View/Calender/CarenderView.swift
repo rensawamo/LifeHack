@@ -12,9 +12,10 @@ struct CarenderView: View {
     @State var showScreenCover = false
     @State var text:String = ""
     @State var isKeyboad:Bool = false
-    
-    var todoViewModel = TodoViewModel()
+   
     @EnvironmentObject var diaryViewModel: DiaryViewModel
+    @EnvironmentObject var todoViewModel:TodoViewModel
+    
     init(currentDate: Binding<Date>) {
         self._currentDate = currentDate
     }
@@ -81,12 +82,12 @@ struct CarenderView: View {
                             content: {
                                 VStack (alignment:.leading) {
                                     // 短期
-                                    let isShortcurretDate =  todoViewModel.completeds.first(where: { complete in
+                                    let isShortcurretDate =  todoViewModel.getTask(status: .completed).first(where: { complete in
                                         let isCurretDate = isCurret(date1: complete.date, date2: currentDate)
                                         return isCurretDate
                                     })
                                     // 長期
-                                    let isLongCurrentDate = todoViewModel.longCompleteds.first(where: { complete in
+                                    let isLongCurrentDate = todoViewModel.getTask(status: .longCompleted).first(where: { complete in
                                         let isCurretDate = isCurret(date1: complete.date, date2: currentDate)
                                         return isCurretDate})
                                     

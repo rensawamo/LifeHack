@@ -9,8 +9,8 @@ import SwiftUI
 import Network
 import RealmSwift
 
-struct TododView: View {
-    var viewModel = TodoViewModel()
+struct TodoView: View {
+    var viewModel = TodoViewModel(currentDate: Date())
     @AppStorage("selectedTodoSegment") var selectedSegment:Int = 0
     
     @State var todoes: [Task]
@@ -298,7 +298,6 @@ struct TododView: View {
                     workings.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     completeds.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     viewModel.updateTask(id: updatedTask.id, status: .todo)
-                    print("ssss",currentlyDragging)
                 }
                 
             case .working:
@@ -309,7 +308,6 @@ struct TododView: View {
                     todoes.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     completeds.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     viewModel.updateTask(id: updatedTask.id, status: .working)
-                    print("ssss",currentlyDragging)
                 }
                 
             case .completed:
@@ -320,7 +318,6 @@ struct TododView: View {
                     workings.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     todoes.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     viewModel.updateTask(id: updatedTask.id, status: .completed)
-                    print("ssss",currentlyDragging)
                 }
                 
             case .longTodo:
@@ -330,7 +327,6 @@ struct TododView: View {
                     longTodoes.append(updatedTask)
                     longCompleteds.removeAll(where: { $0.dragableId == currentlyDragging.dragableId })
                     viewModel.updateTask(id: updatedTask.id, status: .longTodo)
-                    print("ssss")
                 }
                 
             case .longCompleted:

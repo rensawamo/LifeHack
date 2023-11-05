@@ -13,16 +13,17 @@ struct HomeView: View {
     @State var isKeyboad:Bool = false
     @State var currentBookTitle: String = ""
     @State var currentDate: Date = .init()
-    @StateObject var todoViewModel = TodoViewModel()
+    @StateObject var todoViewModel = TodoViewModel(currentDate: Date())
     
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $activeTab) {
                 CarenderView(currentDate: $currentDate)
                     .environmentObject(DiaryViewModel(currentDate: currentDate))
+                    .environmentObject(TodoViewModel(currentDate: currentDate))
                     .tag(Tab.calendar)
                 
-                TododView(todoes: todoViewModel.todos, workings: todoViewModel.workings, completeds: todoViewModel.completeds, longTodoes: todoViewModel.longTodos, longCompleteds: todoViewModel.longCompleteds)
+                TodoView(todoes: todoViewModel.todos, workings: todoViewModel.workings, completeds: todoViewModel.completeds, longTodoes: todoViewModel.longTodos, longCompleteds: todoViewModel.longCompleteds)
                     .tag(Tab.checklist)
                 
                 BookView(currentBookTitle: $currentBookTitle)

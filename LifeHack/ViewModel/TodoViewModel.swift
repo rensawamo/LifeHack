@@ -15,14 +15,17 @@ class TodoViewModel: ObservableObject {
     @Published var longTodos:[Task] = []
     @Published var longCompleteds:[Task] = []
     
+    @Published var currentDate: Date
+    
     private var startOfDate: Date
     private var endOfDate: Date
     private var startOfMonth: Date
     private var nextMonthStart: Date
     
-    init() {
+    init(currentDate: Date) {
+        self.currentDate = currentDate
         let calendar = Calendar.current
-        self.startOfDate = calendar.startOfDay(for: Date())
+        self.startOfDate = calendar.startOfDay(for: currentDate)
         self.endOfDate = calendar.date(byAdding: .day, value: 1, to: startOfDate)!
         self.startOfMonth = calendar.date(from: calendar.dateComponents([.year, .month], from: Date())) ?? .init()
         self.nextMonthStart  = calendar.date(byAdding: DateComponents(month: 1), to: startOfMonth) ?? .init()
