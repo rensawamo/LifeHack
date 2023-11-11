@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-class bookViewModel: ObservableObject {
+class BookViewModel: ObservableObject {
     
     @Published var books:[Book] = []
     @Published var bookCategoris:[BookCategory] = []

@@ -11,7 +11,7 @@ import RealmSwift
 struct Drag: DropDelegate {
     var currentBookCategory: BookCategory
     var currentDetailId:UUID
-    var viewModel: bookViewModel
+    var viewModel: BookViewModel
     
     func performDrop(info: DropInfo) -> Bool {
         return true
@@ -48,7 +48,7 @@ struct Drag: DropDelegate {
 struct Drag2: DropDelegate {
     var currentBookMemo: BookMemo
     var currentDetailId:UUID
-    var viewModel: bookViewModel
+    var viewModel: BookViewModel
     var bookTitle:String
     func performDrop(info: DropInfo) -> Bool {
         return true

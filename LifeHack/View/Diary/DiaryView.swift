@@ -14,7 +14,7 @@ struct DiaryView: View {
     @State var activeState = ""
     @FocusState private var isKeyboardShowing: Bool
     @Binding var isKeyboad:Bool
-    @StateObject private var viewModel = DiaryViewModel(currentDate: Date())
+    @EnvironmentObject var viewModel: DiaryViewModel
     
     // poper
     @State private var isShowPopover: Bool = false
@@ -73,7 +73,6 @@ struct DiaryView: View {
                                 }
                             }
                             .onAppear {
-                                viewModel.currentDate = Date()
                                 if let state = viewModel.todayState {
                                     activeState = state.systemImage
                                 } else {

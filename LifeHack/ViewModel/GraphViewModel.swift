@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-class graphViewModel: ObservableObject {
+class GraphViewModel: ObservableObject {
     
     func getGrafMemo(currentDate:Date, selectedSegment:Int) -> ([GraphMemo],Int) {
         return realmManager.shared.getGrafMemo(currentDate: currentDate, selectedSegment:selectedSegment)

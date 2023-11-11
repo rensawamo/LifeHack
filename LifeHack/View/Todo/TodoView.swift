@@ -10,14 +10,14 @@ import Network
 import RealmSwift
 
 struct TodoView: View {
-    var viewModel = TodoViewModel(currentDate: Date())
+    @EnvironmentObject var viewModel: TodoViewModel
     @AppStorage("selectedTodoSegment") var selectedSegment:Int = 0
     
-    @State var todoes: [Task]
-    @State var workings: [Task]
-    @State var completeds: [Task]
-    @State var longTodoes: [Task]
-    @State var longCompleteds: [Task]
+    @State var todoes: [Task] = []
+    @State var workings: [Task] = []
+    @State var completeds: [Task] = []
+    @State var longTodoes: [Task] = []
+    @State var longCompleteds: [Task] = []
     
     @State var currentId: ObjectId = .init()
     @State var currentTitle: String = ""
@@ -162,19 +162,26 @@ struct TodoView: View {
                 .interactiveDismissDisabled()
                 .presentationCornerRadius(15)
         })
+        .onAppear {
+            todoes = viewModel.todos
+            workings = viewModel.workings
+            completeds = viewModel.completeds
+            longTodoes = viewModel.longTodos
+            longCompleteds = viewModel.longCompleteds
+        }
         .onDisappear {
-            viewModel.saveTask(todoes: todoes, status: .todo)
-            viewModel.saveTask(todoes: workings, status: .working)
-            viewModel.saveTask(todoes: longTodoes, status: .longTodo)
-            viewModel.saveCompletedTask(todoes: completeds, status: .completed)
-            viewModel.saveCompletedTask(todoes: longCompleteds, status: .longCompleted)
+            viewModel.saveTask(tasks: todoes, status: .todo)
+            viewModel.saveTask(tasks: workings, status: .working)
+            viewModel.saveTask(tasks: longTodoes, status: .longTodo)
+            viewModel.saveCompletedTask(tasks: completeds, status: .completed)
+            viewModel.saveCompletedTask(tasks: longCompleteds, status: .longCompleted)
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
-            viewModel.saveTask(todoes: todoes, status: .todo)
-            viewModel.saveTask(todoes: workings, status: .working)
-            viewModel.saveTask(todoes: longTodoes, status: .longTodo)
-            viewModel.saveCompletedTask(todoes: completeds, status: .completed)
-            viewModel.saveCompletedTask(todoes: longCompleteds, status: .longCompleted)
+            viewModel.saveTask(tasks: todoes, status: .todo)
+            viewModel.saveTask(tasks: workings, status: .working)
+            viewModel.saveTask(tasks: longTodoes, status: .longTodo)
+            viewModel.saveCompletedTask(tasks: completeds, status: .completed)
+            viewModel.saveCompletedTask(tasks: longCompleteds, status: .longCompleted)
         }
     }
     

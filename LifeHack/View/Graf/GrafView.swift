@@ -11,7 +11,7 @@ import PieChart
 
 struct GrafView: View {
     let calendar = Calendar.current
-    @State var viewModel = graphViewModel()
+    @State var viewModel = GraphViewModel()
     @State var currentDate: Date = Date()
     @State var grafStates:[GraphState] = []
     @State var grafMemoes: [GraphMemo] = []

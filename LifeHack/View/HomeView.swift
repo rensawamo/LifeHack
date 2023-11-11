@@ -5,6 +5,7 @@
 //  Created by sawamoren on 2023/08/11.
 
 import SwiftUI
+import RealmSwift
 struct HomeView: View {
     
     @State private var activeTab: Tab = .calendar
@@ -13,7 +14,6 @@ struct HomeView: View {
     @State var isKeyboad:Bool = false
     @State var currentBookTitle: String = ""
     @State var currentDate: Date = .init()
-    @StateObject var todoViewModel = TodoViewModel(currentDate: Date())
     
     var body: some View {
         VStack(spacing: 0) {
@@ -23,16 +23,18 @@ struct HomeView: View {
                     .environmentObject(TodoViewModel(currentDate: currentDate))
                     .tag(Tab.calendar)
                 
-                TodoView(todoes: todoViewModel.todos, workings: todoViewModel.workings, completeds: todoViewModel.completeds, longTodoes: todoViewModel.longTodos, longCompleteds: todoViewModel.longCompleteds)
+                TodoView()
+                    .environmentObject(TodoViewModel(currentDate: .init()))
                     .tag(Tab.checklist)
                 
                 BookView(currentBookTitle: $currentBookTitle)
                     .tag(Tab.book)
                 
+                //ここでenviromentObject
                 DiaryView(isKeyboad: $isKeyboad)
+                    .environmentObject(DiaryViewModel(currentDate: .init()))
                     .tag(Tab.plus)
                 
-//                GrafView(grafStates: realmManager.getGrafState(Date(), 0), grafMemoes: realmManager.getGrafMemo(Date(),0).0)
                 GrafView()
                     .tag(Tab.function)
             }
@@ -57,6 +59,9 @@ struct HomeView: View {
         }
         .background(Color.customBackground)
         .ignoresSafeArea()
+        .onAppear {
+            print("mockDate",Realm.Configuration.defaultConfiguration.fileURL!)
+        }
     }
     
     @ViewBuilder

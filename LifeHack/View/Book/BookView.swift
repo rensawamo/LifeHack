@@ -9,7 +9,7 @@ import SwiftUI
 import RealmSwift
 
 struct BookView: View {
-    @StateObject var viewModel = bookViewModel()
+    @StateObject var viewModel = BookViewModel()
     @AppStorage("apperCount") var apperCount: Int = 0
     @State var isSheetUp:Bool = false
     @Binding var currentBookTitle: String

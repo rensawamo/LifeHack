@@ -33,12 +33,12 @@ class TodoViewModel: ObservableObject {
     }
     
     func getAllTasks() {
-        let resultTodoes = realmManager.shared.getAllTasks(startOfDate: startOfDate, endOfDate: endOfDate)
-        todos = resultTodoes.todos
-        workings = resultTodoes.working
-        completeds = resultTodoes.completeds
-        longTodos = resultTodoes.longTodos
-        longCompleteds = resultTodoes.longCompleteds
+        let resultTasks = realmManager.shared.getAllTasks(startOfDate: startOfDate, endOfDate: endOfDate)
+        todos = resultTasks.todos
+        workings = resultTasks.working
+        completeds = resultTasks.completeds
+        longTodos = resultTasks.longTodos
+        longCompleteds = resultTasks.longCompleteds
     }
     func getTask(status: Status) -> [Task] {
         return realmManager.shared.getTask(status: status, startOfDate: startOfDate, endOfDate: endOfDate)
@@ -52,12 +52,12 @@ class TodoViewModel: ObservableObject {
         realmManager.shared.updateTask(id: id, status: status)
     }
     
-    func saveCompletedTask(todoes:[Task],status:Status) {
-        realmManager.shared.saveCompletedTask(todoes: todoes, status: status,startOfDate:startOfDate,endOfDate:endOfDate)
+    func saveCompletedTask(tasks:[Task],status:Status) {
+        realmManager.shared.saveCompletedTask(todoes: tasks, status: status,startOfDate:startOfDate,endOfDate:endOfDate)
     }
     
-    func saveTask(todoes:[Task],status:Status) {
-        realmManager.shared.saveTask(todoes: todoes, status: status)
+    func saveTask(tasks:[Task],status:Status) {
+        realmManager.shared.saveTask(todoes: tasks, status: status)
     }
     
     func editTask(updateTask:Task) {

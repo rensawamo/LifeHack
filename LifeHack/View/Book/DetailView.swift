@@ -12,7 +12,7 @@ struct DetailView: View {
     @Environment(\.presentationMode) var presentationMode
     @State var isSheetUp:Bool = false
     var booktilte:String
-    var viewModel: bookViewModel
+    var viewModel: BookViewModel
     
     @State var searchText:String = ""
     @State var isKeyboardVisible: Bool = false
