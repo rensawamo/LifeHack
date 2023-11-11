@@ -73,6 +73,7 @@ struct DiaryView: View {
                                 }
                             }
                             .onAppear {
+                                activeState = ""
                                 if let state = viewModel.todayState {
                                     activeState = state.systemImage
                                 } else {

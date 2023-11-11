@@ -15,5 +15,3 @@ struct LifeHackApp: App {
         }
     }
 }
-
-    

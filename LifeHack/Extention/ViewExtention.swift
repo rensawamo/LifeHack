@@ -15,9 +15,7 @@ extension View {
 }
 
 extension Color {
-    
     static let fontColor = Color(#colorLiteral(red: 0.3803921569, green: 0.1764705882, blue: 0.1137254902, alpha: 1))  // #602D1D
-    
     static let customBackground = Color(red: 255 / 255, green: 250 / 255, blue: 240 / 255)
 }
 
@@ -40,14 +38,11 @@ extension View {
         self
             .frame(maxHeight: .infinity, alignment: alignment)
     }
-    
 }
-
 
 extension UIScreen {
     
     var hasHomeButton: Bool {
         return self.nativeBounds.height > 2208 || self.nativeBounds.height == 1792
     }
-    
 }

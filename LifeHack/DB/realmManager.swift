@@ -88,6 +88,7 @@ final class realmManager {
             }
         }
     }
+    
     func updateState(id: ObjectId, img: String,startOfDate:Date,endOfDate:Date) -> HeartState? {
         if let localRealm = localRealm {
             do {
@@ -246,6 +247,7 @@ final class realmManager {
             }
         }
     }
+    
     func deleteTask(id: ObjectId) {
         if let localRealm = localRealm {
             do {
@@ -260,6 +262,7 @@ final class realmManager {
             }
         }
     }
+    
     func saveTask(todoes:[Task],status:Status) {
         if let localRealm = realmManager.shared.localRealm {
             do {
@@ -380,6 +383,7 @@ final class realmManager {
         }
         return books
     }
+    
     func getBookMemo(searchBookMemoText:String,currentBookTitle:String) -> [BookMemo] {
         var bookMemoes:[BookMemo] = []
         if let localRealm = localRealm  {
@@ -398,6 +402,7 @@ final class realmManager {
         }
         return bookMemoes
     }
+    
     func updateBookMemo(id: ObjectId, title:String,contant:String,todo:String) {
         if let localRealm = localRealm {
             do {
@@ -413,6 +418,7 @@ final class realmManager {
             }
         }
     }
+    
     func addBookMemo(bookTitle: String, date: Date, title: String, contant: String, todo: String,sortNum: Int) {
         let bookMemo = BookMemo()
         bookMemo.bookTitle = bookTitle
@@ -429,6 +435,7 @@ final class realmManager {
             print("Error saving task: \(error)")
         }
     }
+    
     func getBookCategory() -> [BookCategory] {
         var bookCategoris:[BookCategory] = []
         if let localRealm = localRealm {
@@ -439,6 +446,7 @@ final class realmManager {
         }
         return bookCategoris
     }
+    
     func updateBookWhyDeleteCategory(category: String) {
         if let localRealm = localRealm {
             do {
@@ -454,6 +462,7 @@ final class realmManager {
             }
         }
     }
+    
     func deleteBookCategory(id: ObjectId) {
         if let localRealm = localRealm {
             do {
@@ -468,9 +477,9 @@ final class realmManager {
             }
         }
     }
+    
     func updateBookMemoSort(currentBookTitle: String, fromObject: String, toObject: String,fromIndex:Int,toIndex:Int) {
         guard let localRealm = localRealm else { return }
-        
         do {
             let stateToUpdate = localRealm.objects(BookMemo.self).filter("bookTitle == %@", currentBookTitle)
             guard !stateToUpdate.isEmpty else { return }
@@ -487,6 +496,7 @@ final class realmManager {
             print("Error updating task to Realm: \(error)")
         }
     }
+    
     func addBookCategory(category:String ) {
         let bookCategory = BookCategory()
         bookCategory.category = category
@@ -498,6 +508,7 @@ final class realmManager {
             print("Error saving task: \(error)")
         }
     }
+    
     func isAlreadyTitle(_ title: String, _ bookTitle: String) -> Bool {
         if let localRealm = localRealm {
             let filteredBooks = localRealm.objects(BookMemo.self).filter("title == %@ AND bookTitle == %@", title, bookTitle)
@@ -505,6 +516,7 @@ final class realmManager {
         }
         return false
     }
+    
     func isShowSortBook(activeTag:String) -> Bool {
         if activeTag == "all" {
             return true
@@ -523,6 +535,7 @@ final class realmManager {
         }
         return true
     }
+    
     func updateBookCategory(fromIndex: Int, toIndex:Int,fromCategory:String,toCategory:String) {
         if let localRealm = localRealm {
             do {
@@ -537,8 +550,8 @@ final class realmManager {
             }
         }
     }
+    
     // MARK: - graph
- 
     func getGrafMemo(currentDate:Date, selectedSegment:Int) -> ([GraphMemo],Int) {
         var graphMemoes:[GraphMemo] = []
         var totalCount: Int = 0
@@ -650,6 +663,7 @@ final class realmManager {
         }
         return allGraphStates
     }
+    
     func createGetGrafState(_ allHeartStatus :Results<HeartState>) -> [GraphState]{
         var returns:[GraphState] = []
         var sunDay:Int = 0
@@ -683,6 +697,7 @@ final class realmManager {
         returns.append(grafRainState)
         return returns
     }
+    
 }
 
 

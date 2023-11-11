@@ -1,9 +1,7 @@
 //
 //  DiaryViewModel.swift
 //  LifeHack
-//
 //  Created by sawamoren on 2023/10/24.
-//
 
 import SwiftUI
 import RealmSwift

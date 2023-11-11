@@ -1,45 +1,39 @@
+////
+////  LifeHackTests.swift
+////  LifeHackTests
+////
+////  Created by sawamoren on 2023/08/11.
+////
 //
-//  LifeHackTests.swift
-//  LifeHackTests
+//import XCTest
+//import RealmSwift
+//@testable import LifeHack
 //
-//  Created by sawamoren on 2023/08/11.
+//class MockRealmManager: realmManager {
+//    var stubbedDiaries: [Diary] = []
+//    var stubbedHeartStates: [HeartState] = []
 //
-
-import XCTest
-import RealmSwift
-@testable import LifeHack
-
-final class LifeHackTests: XCTestCase {
-    
-    var realm: Realm {
-        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "Mock", ofType: "realm")!)
-        return try! Realm(configuration: Realm.Configuration(fileURL: url, schemaVersion: 4))
-    }
-    private let todoViewModel = TodoViewModel(currentDate: .init())
-    
-    override func setUpWithError() throws {
-        super.setUp()
-        Realm.Configuration.defaultConfiguration.inMemoryIdentifier = self.name
-      }
-    
-    override func tearDownWithError() throws {
-        reset()
-    }
-    
-    private func reset() {
-        try! realm.write {
-            realm.deleteAll()
-        }
-    }
-    
-    func testThreeIngredientCakeCosts9() {
-    }
-    
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
-}
+//    override func getDiarys(startOfDate: Date, endOfDate: Date) -> [Diary] {
+//        return stubbedDiaries
+//    }
+//
+//    override func addDiary(newDiary: Diary) {
+//        // テスト用のデータを操作
+//    }
+//
+//    override func deleteDiary(id: ObjectId) {
+//        // テスト用のデータを操作
+//    }
+//
+//    // 他のメソッドも同様にオーバーライド
+//}
+//
+//final class LifeHackTests: XCTestCase {
+//    
+//    let todoViewModel = TodoViewModel(currentDate: .init())
+//    
+//    func test_getAllTasks() {
+//        // given
+//        let vm = todoViewModel.todos
+//    }
+//}

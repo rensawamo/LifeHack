@@ -14,7 +14,6 @@ class TodoViewModel: ObservableObject {
     @Published var completeds:[Task] = []
     @Published var longTodos:[Task] = []
     @Published var longCompleteds:[Task] = []
-    
     @Published var currentDate: Date
     
     private var startOfDate: Date
@@ -69,3 +68,4 @@ class TodoViewModel: ObservableObject {
         getAllTasks()
     }
 }
+
