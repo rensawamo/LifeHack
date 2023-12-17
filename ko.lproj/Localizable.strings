@@ -1,8 +1,8 @@
-/* 
-  Localizable.strings
-  LifeHack
+/*
+ Localizable.strings
+ LifeHack
 
-  Created by sawamoren on 2023/09/04.
+ Created by sawamoren on 2023/09/04.
   
 */
 
@@ -12,8 +12,8 @@
 "diary" = "일기";
 "noDiary" = "일기 없음";
 "noTask" = "완료 없음";
-"todo" = "태스크";
-"task" = "태스크";
+"todo" = "작업";
+"task" = "작업";
 "work" = "일";
 "short" = "단기";
 "long" = "장기";
@@ -25,14 +25,14 @@
 "delete" = "삭제";
 "cancel" = "취소";
 "work" = "일";
-"notYet" = "태스크";
-"edit" = "編集";
-"trash" = "削除";
-"contant" = "内容";
-"contant2" = "内容";
-"approximate" = "目安";
-"approximate2" = "目安";
-"add" = "追加";
+"notYet" = "작업";
+"edit" = "편집";
+"trash" = "삭제";
+"contant" = "내용";
+"contant2" = "내용";
+"approximate" = "예상";
+"approximate2" = "예상";
+"add" = "추가";
 
 // Book
 "memo" = "読書";
@@ -84,5 +84,92 @@
 "AppIcon" = "アプリのアイコン";
 "mail" = "メールの送信が完了しました";
 "termsOfUse" = "プライバシーポリシー";
-"website_url"  = "https://rensawamo.github.io/LifeHackWeb/";
-"privacy_url"  = "https://rensawamo.github.io/Privacy-Policy/";
+"website_url" = "https://rensawamo.github.io/LifeHackWeb/";
+"privacy_url" = "https://rensawamo.github.io/Privacy-Policy/";/*
+ Localizable.strings
+ LifeHack
+
+ Created by sawamoren on 2023/09/04.
+  
+*/
+
+"calender" = "달력";
+"complete" = "완료";
+"imgcomplete" = "완료";
+"diary" = "일기";
+"noDiary" = "일기 없음";
+"noTask" = "완료 없음";
+"todo" = "작업";
+"task" = "작업";
+"work" = "일";
+"short" = "단기";
+"long" = "장기";
+"title" = "제목";
+
+"setting" = "설정";
+"todayState" = "오늘의 상태";
+"happend" = "오늘의 일";
+"delete" = "삭제";
+"cancel" = "취소";
+"work" = "일";
+"notYet" = "작업";
+"edit" = "편집";
+"trash" = "삭제";
+"contant" = "내용";
+"contant2" = "내용";
+"approximate" = "예상";
+"approximate2" = "예상";
+"add" = "추가";
+
+// Book
+"memo" = "読書";
+"total" = "合計";
+"latest" = "最新";
+"review" = "レビュー";
+"goal" = "目標";
+"goal1" = "目標1";
+"goal2" = "目標2";
+"goal3" = "目標3";
+"category" = "カテゴリー";
+"cancel" = "キャンセル";
+"action" = "実行";
+"progress" = "進行中";
+"bookTitle" = "本のタイトル";
+"memoTitle" = "メモのタイトル";
+"bookTitleAlert" = "すでに登録されています";
+"CantAllDelete" = "allは削除できません";
+"CantAddCategory" = "これ以上追加できません";
+"alreadyResistration" = "すでに登録されています";
+"registrationDate" = "登録日";
+ 
+// Graf
+"1month" = "1ヶ月";
+"3month" = "3ヶ月";
+"6month" = "半年";
+"12month" = "1年";
+"graph" = "グラフ";
+"condition" = "調子";
+"day" = "日";
+
+// todo
+"30min" = "~30分";
+"30min~1hr" = "30分~1時間";
+"1hr~2hr" = "1~2時間";
+"2hr~6hr" = "2~6時間";
+"6hr~" = "6時間~";
+
+
+// popear
+"poper1" = "完了したタスクは、日付が変わると自動的に削除されます";
+"poper2" = "日記は、日付が変わると自動的に削除されます";
+"poper3" = "読書前に目標を書いて、レビューを読書後に行います";
+
+// MypageView
+"darkModo" = "ダークモード";
+"appIcon" = "アプリのアイコン";
+"contact" = "お問い合わせ";
+"AppIcon" = "アプリのアイコン";
+"mail" = "メールの送信が完了しました";
+"termsOfUse" = "プライバシーポリシー";
+"website_url" = "https://rensawamo.github.io/LifeHackWeb/";
+"privacy_url" = "https://rensawamo.github.io/Privacy-Policy/";
