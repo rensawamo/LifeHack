@@ -83,6 +83,7 @@
 		FF0785DF2A864F52003BE532 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
 		FF0785E12A864F63003BE532 /* SentenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceView.swift; sourceTree = "<group>"; };
 		FF0785E32A8650DD003BE532 /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		FF1272452B2F3D1700F3A663 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FF15282A2A98C5F300CDDA6F /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		FF15282C2A98CBE800CDDA6F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FF2A0FDB2A8895500090F3CB /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
@@ -415,6 +416,7 @@
 				en,
 				Base,
 				ja,
+				ko,
 			);
 			mainGroup = FF0785932A8645A3003BE532;
 			packageReferences = (
@@ -533,6 +535,7 @@
 			children = (
 				FFDDE4382AA5FC3D008DC95D /* ja */,
 				FFDDE43A2AA5FC5C008DC95D /* en */,
+				FF1272452B2F3D1700F3A663 /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
