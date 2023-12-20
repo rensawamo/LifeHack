@@ -43,26 +43,26 @@
 "goal1" = "目標1";
 "goal2" = "目標2";
 "goal3" = "目標3";
-"category" = "カテゴリー";
-"cancel" = "キャンセル";
-"action" = "実行";
-"progress" = "進行中";
-"bookTitle" = "本のタイトル";
-"memoTitle" = "メモのタイトル";
-"bookTitleAlert" = "すでに登録されています";
-"CantAllDelete" = "allは削除できません";
-"CantAddCategory" = "これ以上追加できません";
-"alreadyResistration" = "すでに登録されています";
-"registrationDate" = "登録日";
+"category" = "카테고리";
+"cancel" = "취소";
+"action" = "행동";
+"progress" = "진행";
+"bookTitle" = "책의 제목";
+"memoTitle" = "메모의 제목";
+"bookTitleAlert" = "이미 등록되었습니다";
+"CantAllDelete" = "all";
+"CantAddCategory" = "이것은 삭제할 수 없습니다";
+"alreadyResistration" = "이미 등록되었습니다";
+"registrationDate" = "등록일";
  
 // Graf
-"1month" = "1ヶ月";
-"3month" = "3ヶ月";
-"6month" = "半年";
-"12month" = "1年";
-"graph" = "グラフ";
-"condition" = "調子";
-"day" = "日";
+"1month" = "1개월";
+"3month" = "3개월";
+"6month" = "반년";
+"12month" = "1년";
+"graph" = "그래프";
+"condition" = "상태";
+"day" = "일";
 
 // todo
 "30min" = "~30分";
