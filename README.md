@@ -4,7 +4,7 @@ https://apps.apple.com/jp/app/lifehack/id6467121460
 ## [Service]
 日々の生活の振り返りや、todoの可視化、読書メモといった、生活の基礎を形づくります。<br>
 It forms the basis for daily life, such as reflecting on daily life, visualizing todo's, and book notes.<br>
-일상을 되돌아보고, 태스크을 정리하고, 독서 메모를 작성하는 등 삶의 기초를 형성합니다.<br>
+일상을 되돌아보고, 태스크을 정리하고, 독서 메모를 작성하서 삶의 기초를 형성합니다.<br>
 
 ## [Summary]
 ・カレンダー: 日記、行ったタスクを振り返る  <br>
@@ -30,7 +30,7 @@ It forms the basis for daily life, such as reflecting on daily life, visualizing
 FW: SwiftUI,UIkit  <br>  
 Package: Realm(10.42.0), RealmDatabase(13.17.1), PieChart(0.3.0)  <br>
 
-## [AArchitecture] <br>
+## [Architecture] <br>
 MVVM
 
 ## [Future] <br>
