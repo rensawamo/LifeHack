@@ -14,7 +14,7 @@
 "noTask" = "완료 없음";
 "todo" = "작업";
 "task" = "작업";
-"work" = "일";
+"work" = "작업";
 "short" = "단기";
 "long" = "장기";
 "title" = "제목";
@@ -24,7 +24,6 @@
 "happend" = "오늘의 일";
 "delete" = "삭제";
 "cancel" = "취소";
-"work" = "일";
 "notYet" = "작업";
 "edit" = "편집";
 "trash" = "삭제";
