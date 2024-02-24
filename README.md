@@ -1,5 +1,16 @@
-# LifeHack ☑️
-https://apps.apple.com/jp/app/lifehack/id6467121460
+# LifeHack 
+
+<img width="254" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/23413fb6-f795-48b2-8a59-027d151ec008">
+
+<img width="250" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/8e5b6447-baa4-452c-9e1e-173ef3dee98b">
+
+<img width="252" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/35ca7c5b-46b0-4f67-97c0-ba669095844a">
+
+<img width="259" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/9deffa07-96e0-4e20-928c-87126df6a440">
+
+<img width="253" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/28e1a964-4f07-4a3f-a3e9-e11f1f697d0a">
+
+
 
 ## [Service]
 日々の生活の振り返りや、todoの可視化、読書メモといった、生活の基礎を形づくります。<br>
@@ -37,3 +48,5 @@ MVVM
 Write to github issue<br>
 
 
+## install🤩
+https://apps.apple.com/jp/app/lifehack/id6467121460
