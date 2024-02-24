@@ -1,5 +1,6 @@
 # LifeHack 
 
+<p align="center">
 <img width="254" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/23413fb6-f795-48b2-8a59-027d151ec008">
 
 <img width="250" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/8e5b6447-baa4-452c-9e1e-173ef3dee98b">
@@ -9,7 +10,7 @@
 <img width="259" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/9deffa07-96e0-4e20-928c-87126df6a440">
 
 <img width="253" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/28e1a964-4f07-4a3f-a3e9-e11f1f697d0a">
-
+</p>
 
 
 ## [Service]
@@ -20,14 +21,14 @@ It forms the basis for daily life, such as reflecting on daily life, visualizing
 ## [Summary]
 ・カレンダー: 日記、行ったタスクを振り返る  <br>
 ・タスク: 短期タスクと長期タスクの可視化、優先順位づけ  <br>
-・読書メモ: カテゴリーごとに、レビューや登録更新日付の並び変え  <br>
+・メモ: カテゴリーごとに、優先順位や登録更新日付の並び変え  <br>
 ・日記機能: 写真と文字で日々の日記を登録。また調子の記録  <br>
 ・グラフ: 1,3,6,12ヶ月の調子、メモのカテゴリーに応じたグラフ化  <br>
 ・その他: アイコンカスタマイズ、メールでの意見受け付けなど  <br>
 
 ・Calendar: reflecting on daily, look back on the tasks you've done <br>
 ・Tasks: visualization and prioritization of short-term and long-term tasks　<br>
-・Book：　Reading notes: Sort reviews and registration update dates by category　<br>
+・memo：　Reading notes: Sort reviews and registration update dates by category　<br>
 ・Graph: Register a daily  with photos and text. Also record of the condition <br>
 ・Other: Icon customization, accepting opinions via e-mail, etc <br>
 
@@ -43,6 +44,10 @@ Package: Realm(10.42.0), RealmDatabase(13.17.1), PieChart(0.3.0)  <br>
 
 ## [Architecture] <br>
 MVVM
+
+<img width="713" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/f04bc9a1-9962-4ef1-a46d-4a1d7cf19ab8">
+
+
 
 ## [Future] <br>
 Write to github issue<br>
