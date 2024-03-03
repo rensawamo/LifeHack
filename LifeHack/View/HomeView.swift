@@ -6,6 +6,7 @@
 
 import SwiftUI
 import RealmSwift
+
 struct HomeView: View {
     
     @State private var activeTab: Tab = .calendar
@@ -15,6 +16,7 @@ struct HomeView: View {
     @State var currentBookTitle: String = ""
     @State var currentDate: Date = .init()
     
+ 
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $activeTab) {
@@ -137,6 +139,7 @@ extension View {
             }
     }
 }
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

@@ -8,6 +8,7 @@
 import SwiftUI
 import RealmSwift
 
+
 struct BookView: View {
     @StateObject var viewModel = BookViewModel()
     @AppStorage("apperCount") var apperCount: Int = 0
@@ -47,6 +48,7 @@ struct BookView: View {
     @State var arrowDirection: ArrowDirection = .up
     @State var background: Color = .white
     
+
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 15, content: {

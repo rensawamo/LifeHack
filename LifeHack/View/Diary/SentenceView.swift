@@ -19,19 +19,24 @@ struct SentenceView: View {
         
         ZStack {
             if diary.photo == nil {
-                TextField(diary.text, text: $fixText, axis: .vertical)
-                    .frame(width: 300)
-                    .onTapGesture {
-                        isKeyboad = true
-                    }
-                    .onAppear {
-                        fixText = diary.text
-                    }
-                    .onChange(of: isKeyboad) { newValue in
-                        if isKeyboad == false {
-                            ViewModel.updateDiary(id: diary.id, text: fixText)
+                if #available(iOS 16.4, *) {
+                    TextField(diary.text, text: $fixText, axis: .vertical)
+                        .frame(width: 300)
+                        .onTapGesture {
+                            isKeyboad = true
                         }
+                        .onAppear {
+                            fixText = diary.text
+                        }
+                        .onChange(of: isKeyboad) { newValue in
+                            if isKeyboad == false {
+                                ViewModel.updateDiary(id: diary.id, text: fixText)
+                            }
+                        }
+                    } else {
+                        
                     }
+                
             } else {
                 ZStack {
                     if !diary.isInvalidated {

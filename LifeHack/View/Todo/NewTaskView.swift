@@ -6,6 +6,7 @@
 //
 import SwiftUI
 
+
 struct NewTaskView: View {
     var selectedSegment: Int
     @Binding var todoes:[Task]
@@ -51,13 +52,18 @@ struct NewTaskView: View {
                         )
                     
                     Text(LocalizedStringKey("contant"))
-                    TextField(LocalizedStringKey("contant"), text: $text, axis: .vertical)
-                        .padding(.horizontal, 15)
-                        .frame(height: 80)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.black.opacity(0.4), lineWidth: 1)
-                        )
+                    if #available(iOS 16, *) {
+                        TextField(LocalizedStringKey("contant"), text: $text, axis: .vertical)
+                            .padding(.horizontal, 15)
+                            .frame(height: 80)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 5)
+                                    .stroke(Color.black.opacity(0.4), lineWidth: 1)
+                            )
+                        } else {
+                           
+                        }
+                    
                     
                     if selectedSegment == 0 {
                         VStack(alignment: .leading, spacing: 15, content: {

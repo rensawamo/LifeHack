@@ -33,11 +33,11 @@
 "approximate2" = "예상";
 "add" = "추가";
 
-// Book
-"memo" = "독서";
+// memo
+"memo" = "메모";
 "total" = "합계";
 "latest" = "최신";
-"review" = "평가";
+"review" = "우선순";
 "goal" = "목표";
 "goal1" = "목표1";
 "goal2" = "목표2";
@@ -47,7 +47,7 @@
 "action" = "행동";
 "progress" = "진행";
 "bookTitle" = "책의 제목";
-"memoTitle" = "메모의 제목";
+"memoTitle" = "메모 제목";
 "bookTitleAlert" = "이미 등록되었습니다";
 "CantAllDelete" = "all";
 "CantAddCategory" = "이것은 삭제할 수 없습니다";
@@ -74,7 +74,7 @@
 // popear
 "poper1" = "완료된 작업은 다음날이 되면　자동으로 삭제됩니다";
 "poper2" = "일기는　다음날이 되면　자동으로 삭제됩니다";
-"poper3" = "독서전에 목표를 적고　독서 후에　평가합니다";
+"poper3" = "메모를 작성할 때 목표를 적고 ⭐️ 우선순위와 중요도에 따라 사용합니다";
 
 // MypageView
 "darkModo" = "다크 모드";

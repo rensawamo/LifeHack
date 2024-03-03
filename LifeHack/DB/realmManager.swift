@@ -386,9 +386,10 @@ final class realmManager {
     
     func getBookMemo(searchBookMemoText:String,currentBookTitle:String) -> [BookMemo] {
         var bookMemoes:[BookMemo] = []
+        print(currentBookTitle)
         if let localRealm = localRealm  {
             if searchBookMemoText != "" { // 検索
-                let allBooks = localRealm.objects(BookMemo.self).filter("title CONTAINS[c] %@ OR contant CONTAINS[c] %@ OR todo CONTAINS[c]  %@", searchBookMemoText, searchBookMemoText, searchBookMemoText).sorted(byKeyPath: "sortNum", ascending: true)
+                let allBooks = localRealm.objects(BookMemo.self).filter("(title CONTAINS[c] %@ OR contant CONTAINS[c] %@ OR todo CONTAINS[c] %@) AND bookTitle == %@ ", searchBookMemoText, searchBookMemoText, searchBookMemoText,currentBookTitle).sorted(byKeyPath: "sortNum", ascending: true)
                 allBooks.forEach { book in
                     bookMemoes.append(book)
                 }

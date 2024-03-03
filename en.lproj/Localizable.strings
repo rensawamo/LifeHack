@@ -35,10 +35,10 @@
 "add" = "add";
 
 // Book
-"memo" = "book";
+"memo" = "memo";
 "total" = "total";
 "latest" = "latest";
-"review" = "review";
+"review" = "priority";
 "goal" = "goal";
 "goal1" = "goal1";
 "goal2" = "goal2";
@@ -47,7 +47,7 @@
 "cancel" = "cancel";
 "action" = "action";
 "progress" = "progress";
-"bookTitle" = "book title";
+"bookTitle" = "memo title";
 "memoTitle" = "memo title";
 "bookTitleAlert" = "Already registered";
 "CantAllDelete" = "all cannot be deleted";
@@ -75,7 +75,7 @@
 // popear
 "poper1" = "Completed Tasks are automaticary deleted when the date changes";
 "poper2" = "Diary is automaticary deleted when the date changes";
-"poper3" = "Write down your goals before reading and review after reading";
+"poper3" = "When you write a memo, write your goals and use ⭐️ for priority and importance";
 // MypageView
 "darkModo" = "dark mode";
 "appIcon" = "app icon";

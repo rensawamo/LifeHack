@@ -28,7 +28,6 @@ enum ArrowDirection: String,CaseIterable {
 }
 
 extension View{
-    @available(iOS 14,*)
     @ViewBuilder
     func iOSPopover<Content: View>(isPresented: Binding<Bool>, arrowDirection: UIPopoverArrowDirection,@ViewBuilder content: @escaping ()->Content)->some View {
         

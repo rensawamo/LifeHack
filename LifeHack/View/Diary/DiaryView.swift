@@ -6,6 +6,7 @@
 //
 import SwiftUI
 
+
 struct DiaryView: View {
     @State var text = ""
     @State var fixText:String = ""
@@ -93,17 +94,23 @@ struct DiaryView: View {
                                         reader.scrollTo((viewModel.diaries.last?.id))
                                     }
                             }
-                            TextField(LocalizedStringKey("happend"), text: $text, axis: .vertical)
-                                .offset(y:20)
-                                .focused($isKeyboardShowing)
-                                .contentShape(Rectangle())
-                                .opacity(viewModel.diaries.last?.text == nil || viewModel.diaries.last?.text == "" ? 1 : 0)
-                                .onTapGesture {
-                                    isKeyboad = true
-                                    reader.scrollTo((viewModel.diaries.last?.id))
-                                    isKeyboardShowing = true
-                                }
-                                .padding(.bottom,50)
+                            
+                            if #available(iOS 16, *) {
+                                TextField(LocalizedStringKey("happend"), text: $text, axis: .vertical)
+                                    .offset(y:20)
+                                    .focused($isKeyboardShowing)
+                                    .contentShape(Rectangle())
+                                    .opacity(viewModel.diaries.last?.text == nil || viewModel.diaries.last?.text == "" ? 1 : 0)
+                                    .onTapGesture {
+                                        isKeyboad = true
+                                        reader.scrollTo((viewModel.diaries.last?.id))
+                                        isKeyboardShowing = true
+                                    }
+                                    .padding(.bottom,50)
+                               } else {
+                                 
+                               }
+                            
                         }
                     }
                 }
@@ -149,6 +156,7 @@ struct DiaryView: View {
         .background(Color.customBackground)
     }
 }
+
 
 struct DiaryView_Previews: PreviewProvider {
     static var previews: some View {

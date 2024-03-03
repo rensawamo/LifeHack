@@ -34,10 +34,10 @@
 "add" = "追加";
 
 // Book
-"memo" = "読書";
+"memo" = "メモ";
 "total" = "合計";
 "latest" = "最新";
-"review" = "レビュー";
+"review" = "優先度";
 "goal" = "目標";
 "goal1" = "目標1";
 "goal2" = "目標2";
@@ -46,7 +46,7 @@
 "cancel" = "キャンセル";
 "action" = "実行";
 "progress" = "進行中";
-"bookTitle" = "本のタイトル";
+"bookTitle" = "メモのタイトル";
 "memoTitle" = "メモのタイトル";
 "bookTitleAlert" = "すでに登録されています";
 "CantAllDelete" = "allは削除できません";
@@ -74,7 +74,7 @@
 // popear
 "poper1" = "完了したタスクは、日付が変わると自動的に削除されます";
 "poper2" = "日記は、日付が変わると自動的に削除されます";
-"poper3" = "読書前に目標を書いて、レビューを読書後に行います";
+"poper3" = "メモを書くときに目標を書いて ⭐️は優先度や重要度に使用します";
 
 // MypageView
 "darkModo" = "ダークモード";

@@ -29,6 +29,8 @@ struct DetailView: View {
     @State var startBookMemo:BookMemo = .init()
     @State private var showAlert: Bool = false
     
+    
+ 
     var body: some View {
         VStack(alignment: .center, spacing: 6, content: {
             Text(booktilte)
@@ -93,6 +95,7 @@ struct DetailView: View {
             print(sortNum)
         }
         .sheet(isPresented: $isSheetUp, content: {
+            
             NewDeatailView()
                 .presentationDetents([.height(500)])
                 .interactiveDismissDisabled()
