@@ -1,15 +1,18 @@
 # LifeHack 
 
 <p align="center">
-<img width="254" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/23413fb6-f795-48b2-8a59-027d151ec008">
 
-<img width="250" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/8e5b6447-baa4-452c-9e1e-173ef3dee98b">
+<img width="299" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/909ca0e7-44b5-4596-8aa6-45c3c6f4aed0">
 
-<img width="252" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/35ca7c5b-46b0-4f67-97c0-ba669095844a">
+<img width="297" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/204e0320-039c-41fd-8a95-6381b49cdb1f">
 
-<img width="259" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/9deffa07-96e0-4e20-928c-87126df6a440">
+<img width="298" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/0ddf8312-131d-4902-8c04-5a4fb1ef6f57">
 
-<img width="253" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/28e1a964-4f07-4a3f-a3e9-e11f1f697d0a">
+<img width="295" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/23721896-c384-456f-94b1-bb1e37c8cc4e">
+
+<img width="295" alt="image" src="https://github.com/rensawamo/LifeHack/assets/106803080/f42301bb-a0c8-4b7b-a580-1f2e545aff00">
+
+
 </p>
 
 
