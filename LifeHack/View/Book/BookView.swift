@@ -123,11 +123,12 @@ struct BookView: View {
                         VStack(spacing: 65) {
                             ForEach(viewModel.books) { book in
                                 if book.category == activeTag || activeTag == "all" {
-                                    NavigationLink(
-                                        destination: DetailView(booktilte: book.title, viewModel: viewModel),
-                                        label: {
+                                    // bookから memoに使用変更していらなくなった
+//                                    NavigationLink(
+//                                        destination: DetailView(booktilte: book.title, viewModel: viewModel),
+//                                        label: {
                                             BookCardView(book)
-                                        })
+//                                        })
                                 }
                             }
                         }
