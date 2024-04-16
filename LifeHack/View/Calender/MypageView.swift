@@ -40,14 +40,14 @@ struct MypageView: View {
                         .frame(width: UIScreen.main.bounds.width * 0.3, height: UIScreen.main.bounds.height * 0.1)
                     Text("Life Hack")
                         .font(.title.bold())
-                    Text("ver: 1.1.3")
+                    Text("ver: 1.1.4")
                         .foregroundColor(.gray)
                 }
                 List {
-                    NavigationLink(destination: AppIconView()) {
-                        Text(LocalizedStringKey("appIcon"))
-                        Spacer()
-                    }
+//                    NavigationLink(destination: AppIconView()) {
+//                        Text(LocalizedStringKey("appIcon"))
+//                        Spacer()
+//                    }
                     Button {
                         self.showMailView.toggle()
                     } label: {
