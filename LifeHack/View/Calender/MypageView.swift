@@ -40,7 +40,7 @@ struct MypageView: View {
                         .frame(width: UIScreen.main.bounds.width * 0.3, height: UIScreen.main.bounds.height * 0.1)
                     Text("Life Hack")
                         .font(.title.bold())
-                    Text("ver: 1.1.4")
+                    Text("ver: 1.1.5")
                         .foregroundColor(.gray)
                 }
                 List {
