@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE9672382C01DE28003E2CF1 /* Slice 23.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672322C01DE27003E2CF1 /* Slice 23.png */; };
+		EE9672392C01DE28003E2CF1 /* Slice 21.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672332C01DE27003E2CF1 /* Slice 21.png */; };
+		EE96723A2C01DE28003E2CF1 /* Slice 24.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672342C01DE27003E2CF1 /* Slice 24.png */; };
+		EE96723B2C01DE28003E2CF1 /* Slice 20.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672352C01DE28003E2CF1 /* Slice 20.png */; };
+		EE96723C2C01DE28003E2CF1 /* Slice 22.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672362C01DE28003E2CF1 /* Slice 22.png */; };
+		EE96723D2C01DE28003E2CF1 /* Slice 25.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672372C01DE28003E2CF1 /* Slice 25.png */; };
+		EE9672442C01DE40003E2CF1 /* Slice 12.png in Resources */ = {isa = PBXBuildFile; fileRef = EE96723E2C01DE40003E2CF1 /* Slice 12.png */; };
+		EE9672452C01DE40003E2CF1 /* Slice 9.png in Resources */ = {isa = PBXBuildFile; fileRef = EE96723F2C01DE40003E2CF1 /* Slice 9.png */; };
+		EE9672462C01DE40003E2CF1 /* Slice 16.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672402C01DE40003E2CF1 /* Slice 16.png */; };
+		EE9672472C01DE40003E2CF1 /* Slice 17.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672412C01DE40003E2CF1 /* Slice 17.png */; };
+		EE9672482C01DE40003E2CF1 /* Slice 15.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672422C01DE40003E2CF1 /* Slice 15.png */; };
+		EE9672492C01DE40003E2CF1 /* Slice 10.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672432C01DE40003E2CF1 /* Slice 10.png */; };
 		FF02B9562AA9FA19004994A4 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF02B9552AA9FA19004994A4 /* AppIconView.swift */; };
 		FF0785A02A8645A3003BE532 /* LifeHackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07859F2A8645A3003BE532 /* LifeHackApp.swift */; };
 		FF0785A42A8645A4003BE532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0785A32A8645A4003BE532 /* Assets.xcassets */; };
@@ -64,6 +76,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE9672322C01DE27003E2CF1 /* Slice 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 23.png"; sourceTree = "<group>"; };
+		EE9672332C01DE27003E2CF1 /* Slice 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 21.png"; sourceTree = "<group>"; };
+		EE9672342C01DE27003E2CF1 /* Slice 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 24.png"; sourceTree = "<group>"; };
+		EE9672352C01DE28003E2CF1 /* Slice 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 20.png"; sourceTree = "<group>"; };
+		EE9672362C01DE28003E2CF1 /* Slice 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 22.png"; sourceTree = "<group>"; };
+		EE9672372C01DE28003E2CF1 /* Slice 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 25.png"; sourceTree = "<group>"; };
+		EE96723E2C01DE40003E2CF1 /* Slice 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 12.png"; sourceTree = "<group>"; };
+		EE96723F2C01DE40003E2CF1 /* Slice 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 9.png"; sourceTree = "<group>"; };
+		EE9672402C01DE40003E2CF1 /* Slice 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 16.png"; sourceTree = "<group>"; };
+		EE9672412C01DE40003E2CF1 /* Slice 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 17.png"; sourceTree = "<group>"; };
+		EE9672422C01DE40003E2CF1 /* Slice 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 15.png"; sourceTree = "<group>"; };
+		EE9672432C01DE40003E2CF1 /* Slice 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 10.png"; sourceTree = "<group>"; };
 		FF02B9552AA9FA19004994A4 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
 		FF07859C2A8645A3003BE532 /* LifeHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF07859F2A8645A3003BE532 /* LifeHackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHackApp.swift; sourceTree = "<group>"; };
@@ -148,6 +172,65 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		EE96722C2C01D698003E2CF1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE96722D2C01D6A5003E2CF1 /* screenshots */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		EE96722D2C01D6A5003E2CF1 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EE96722F2C01D6BE003E2CF1 /* ver1.1.6 */,
+				EE96722E2C01D6B8003E2CF1 /* assets */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		EE96722E2C01D6B8003E2CF1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		EE96722F2C01D6BE003E2CF1 /* ver1.1.6 */ = {
+			isa = PBXGroup;
+			children = (
+				EE9672312C01D6D3003E2CF1 /* 6.5 */,
+				EE9672302C01D6CC003E2CF1 /* 5.5 */,
+			);
+			path = ver1.1.6;
+			sourceTree = "<group>";
+		};
+		EE9672302C01D6CC003E2CF1 /* 5.5 */ = {
+			isa = PBXGroup;
+			children = (
+				EE9672352C01DE28003E2CF1 /* Slice 20.png */,
+				EE9672332C01DE27003E2CF1 /* Slice 21.png */,
+				EE9672362C01DE28003E2CF1 /* Slice 22.png */,
+				EE9672322C01DE27003E2CF1 /* Slice 23.png */,
+				EE9672342C01DE27003E2CF1 /* Slice 24.png */,
+				EE9672372C01DE28003E2CF1 /* Slice 25.png */,
+			);
+			path = 5.5;
+			sourceTree = "<group>";
+		};
+		EE9672312C01D6D3003E2CF1 /* 6.5 */ = {
+			isa = PBXGroup;
+			children = (
+				EE96723F2C01DE40003E2CF1 /* Slice 9.png */,
+				EE9672432C01DE40003E2CF1 /* Slice 10.png */,
+				EE96723E2C01DE40003E2CF1 /* Slice 12.png */,
+				EE9672422C01DE40003E2CF1 /* Slice 15.png */,
+				EE9672402C01DE40003E2CF1 /* Slice 16.png */,
+				EE9672412C01DE40003E2CF1 /* Slice 17.png */,
+			);
+			path = 6.5;
+			sourceTree = "<group>";
+		};
 		FF0785932A8645A3003BE532 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +256,7 @@
 		FF07859E2A8645A3003BE532 /* LifeHack */ = {
 			isa = PBXGroup;
 			children = (
+				EE96722C2C01D698003E2CF1 /* assets */,
 				FF07859F2A8645A3003BE532 /* LifeHackApp.swift */,
 				FF0785DB2A864C0B003BE532 /* Define */,
 				FF0785CE2A8647D3003BE532 /* Model */,
@@ -439,9 +523,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9672382C01DE28003E2CF1 /* Slice 23.png in Resources */,
 				FF0785A72A8645A4003BE532 /* Preview Assets.xcassets in Resources */,
 				FFDDE4372AA5FC3D008DC95D /* Localizable.strings in Resources */,
+				EE96723D2C01DE28003E2CF1 /* Slice 25.png in Resources */,
+				EE9672442C01DE40003E2CF1 /* Slice 12.png in Resources */,
+				EE96723C2C01DE28003E2CF1 /* Slice 22.png in Resources */,
+				EE9672462C01DE40003E2CF1 /* Slice 16.png in Resources */,
+				EE96723A2C01DE28003E2CF1 /* Slice 24.png in Resources */,
 				FF0785A42A8645A4003BE532 /* Assets.xcassets in Resources */,
+				EE9672492C01DE40003E2CF1 /* Slice 10.png in Resources */,
+				EE9672392C01DE28003E2CF1 /* Slice 21.png in Resources */,
+				EE9672472C01DE40003E2CF1 /* Slice 17.png in Resources */,
+				EE9672452C01DE40003E2CF1 /* Slice 9.png in Resources */,
+				EE96723B2C01DE28003E2CF1 /* Slice 20.png in Resources */,
+				EE9672482C01DE40003E2CF1 /* Slice 15.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,7 +761,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"LifeHack/Preview Content\"";
 				DEVELOPMENT_TEAM = 8M927FP4A9;
 				ENABLE_PREVIEWS = YES;
@@ -684,7 +780,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = co.ren.LifeHaxck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -706,7 +802,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"LifeHack/Preview Content\"";
 				DEVELOPMENT_TEAM = 8M927FP4A9;
 				ENABLE_PREVIEWS = YES;
@@ -725,7 +821,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = co.ren.LifeHaxck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

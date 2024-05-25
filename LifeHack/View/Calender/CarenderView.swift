@@ -25,6 +25,9 @@ struct CarenderView: View {
         VStack(alignment: .center, spacing: 5, content: {
             Text(LocalizedStringKey("calender"))
                 .font(.title3.bold())
+                .onTapGesture {
+                    print(currentDate)
+                }
             
             ScrollView {
                 ScrollViewReader{ reader in
@@ -261,7 +264,8 @@ struct CarenderView: View {
     func Now()-> (Int,Int,Int) {
         let calendar = Calendar.current
         let nowDate: Date = Date()
-        let currentDate = Date() // 現在の日付を取得
+        
+        _ = Date() // 現在の日付を取得
         let month = calendar.component(.month, from: nowDate)
         let year = calendar.component(.year, from: nowDate)
         let day = calendar.component(.day, from: nowDate)

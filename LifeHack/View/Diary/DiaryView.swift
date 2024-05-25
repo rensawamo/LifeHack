@@ -146,6 +146,7 @@ struct DiaryView: View {
                         text = ""
                     }
                     viewModel.addDiary(date: Date(), text: "", photo: self.imgData)
+                    self.imgData.count = 0
                 }
             }) {
                 ImagePicker(imagePicker: self.$imagePicker, imgData: self.$imgData)
@@ -165,6 +166,7 @@ struct DiaryView_Previews: PreviewProvider {
 }
 
 struct ImagePicker : UIViewControllerRepresentable {
+    
     func makeCoordinator() -> Coordinator {
         return ImagePicker.Coordinator(parent1: self)
     }
