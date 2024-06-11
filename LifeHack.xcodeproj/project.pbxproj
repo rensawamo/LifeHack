@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7488D52C17E51300342A91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7488D72C17E51300342A91 /* Localizable.strings */; };
+		EE7488DA2C17E52F00342A91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7488DC2C17E52F00342A91 /* Localizable.strings */; };
+		EE7488DF2C17E5B200342A91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7488E12C17E5B200342A91 /* Localizable.strings */; };
 		EE9672382C01DE28003E2CF1 /* Slice 23.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672322C01DE27003E2CF1 /* Slice 23.png */; };
 		EE9672392C01DE28003E2CF1 /* Slice 21.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672332C01DE27003E2CF1 /* Slice 21.png */; };
 		EE96723A2C01DE28003E2CF1 /* Slice 24.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9672342C01DE27003E2CF1 /* Slice 24.png */; };
@@ -54,7 +57,6 @@
 		FFD50BBE2AA1CC62005C4C7B /* GrafModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD50BBD2AA1CC62005C4C7B /* GrafModel.swift */; };
 		FFD50BC12AA1CF2A005C4C7B /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD50BC02AA1CF2A005C4C7B /* MypageView.swift */; };
 		FFDD1B332A9B6D4F005F8BD3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD1B322A9B6D4F005F8BD3 /* SearchView.swift */; };
-		FFDDE4372AA5FC3D008DC95D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE4392AA5FC3D008DC95D /* Localizable.strings */; };
 		FFFC4F8B2A94EFD5008E15CB /* ExpandPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFC4F8A2A94EFD5008E15CB /* ExpandPhotoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,7 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE7488C92C17E32000342A91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE7488D62C17E51300342A91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE7488DB2C17E52F00342A91 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE7488E02C17E5B200342A91 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE9672322C01DE27003E2CF1 /* Slice 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 23.png"; sourceTree = "<group>"; };
 		EE9672332C01DE27003E2CF1 /* Slice 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 21.png"; sourceTree = "<group>"; };
 		EE9672342C01DE27003E2CF1 /* Slice 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice 24.png"; sourceTree = "<group>"; };
@@ -125,7 +129,6 @@
 		FFD50BBD2AA1CC62005C4C7B /* GrafModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafModel.swift; sourceTree = "<group>"; };
 		FFD50BC02AA1CF2A005C4C7B /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
 		FFDD1B322A9B6D4F005F8BD3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		FFDDE4382AA5FC3D008DC95D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FFFA07262AFCD35D0000EFE3 /* Mock.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mock.realm; sourceTree = "<group>"; };
 		FFFC4F8A2A94EFD5008E15CB /* ExpandPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,8 +237,6 @@
 			isa = PBXGroup;
 			children = (
 				FF5E0D632ABF18C400AFB6DE /* Info.plist */,
-				FFDDE4392AA5FC3D008DC95D /* Localizable.strings */,
-				EE7488CA2C17E32000342A91 /* Localizable.strings */,
 				FF07859E2A8645A3003BE532 /* LifeHack */,
 				FF0785AF2A8645A4003BE532 /* LifeHackTests */,
 				FF0785B92A8645A4003BE532 /* LifeHackUITests */,
@@ -267,6 +268,9 @@
 				EE25F12A2AB0079D0009E159 /* View */,
 				FF0785A32A8645A4003BE532 /* Assets.xcassets */,
 				FF0785A52A8645A4003BE532 /* Preview Content */,
+				EE7488D72C17E51300342A91 /* Localizable.strings */,
+				EE7488DC2C17E52F00342A91 /* Localizable.strings */,
+				EE7488E12C17E5B200342A91 /* Localizable.strings */,
 			);
 			path = LifeHack;
 			sourceTree = "<group>";
@@ -499,7 +503,6 @@
 			knownRegions = (
 				ja,
 				en,
-				Base,
 				ko,
 			);
 			mainGroup = FF0785932A8645A3003BE532;
@@ -523,9 +526,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7488DF2C17E5B200342A91 /* Localizable.strings in Resources */,
+				EE7488DA2C17E52F00342A91 /* Localizable.strings in Resources */,
 				EE9672382C01DE28003E2CF1 /* Slice 23.png in Resources */,
 				FF0785A72A8645A4003BE532 /* Preview Assets.xcassets in Resources */,
-				FFDDE4372AA5FC3D008DC95D /* Localizable.strings in Resources */,
 				EE96723D2C01DE28003E2CF1 /* Slice 25.png in Resources */,
 				EE9672442C01DE40003E2CF1 /* Slice 12.png in Resources */,
 				EE96723C2C01DE28003E2CF1 /* Slice 22.png in Resources */,
@@ -536,6 +540,7 @@
 				EE9672392C01DE28003E2CF1 /* Slice 21.png in Resources */,
 				EE9672472C01DE40003E2CF1 /* Slice 17.png in Resources */,
 				EE9672452C01DE40003E2CF1 /* Slice 9.png in Resources */,
+				EE7488D52C17E51300342A91 /* Localizable.strings in Resources */,
 				EE96723B2C01DE28003E2CF1 /* Slice 20.png in Resources */,
 				EE9672482C01DE40003E2CF1 /* Slice 15.png in Resources */,
 			);
@@ -626,18 +631,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE7488CA2C17E32000342A91 /* Localizable.strings */ = {
+		EE7488D72C17E51300342A91 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE7488C92C17E32000342A91 /* en */,
+				EE7488D62C17E51300342A91 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		FFDDE4392AA5FC3D008DC95D /* Localizable.strings */ = {
+		EE7488DC2C17E52F00342A91 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFDDE4382AA5FC3D008DC95D /* ja */,
+				EE7488DB2C17E52F00342A91 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EE7488E12C17E5B200342A91 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7488E02C17E5B200342A91 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -769,7 +782,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_ASSET_PATHS = "\"LifeHack/Preview Content\"";
 				DEVELOPMENT_TEAM = 8M927FP4A9;
 				ENABLE_PREVIEWS = YES;
@@ -810,7 +823,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_ASSET_PATHS = "\"LifeHack/Preview Content\"";
 				DEVELOPMENT_TEAM = 8M927FP4A9;
 				ENABLE_PREVIEWS = YES;
