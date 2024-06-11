@@ -44,10 +44,10 @@ struct MypageView: View {
                         .foregroundColor(.gray)
                 }
                 List {
-//                    NavigationLink(destination: AppIconView()) {
-//                        Text(LocalizedStringKey("appIcon"))
-//                        Spacer()
-//                    }
+                    NavigationLink(destination: AppIconView()) {
+                        Text(LocalizedStringKey("appIcon"))
+                        Spacer()
+                    }
                     Button {
                         self.showMailView.toggle()
                     } label: {
